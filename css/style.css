@@ -1,0 +1,41 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+@import "bigScreen.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    padding: 10px 20px;
+    color: #020202;
+    height:10000000px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+main{
+    animation: 0.5s fadeIn ease-in-out;
+}

@@ -1,0 +1,22 @@
+.settings__section-header{
+    margin-top: 50px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.settings__setting{
+    display:flex;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.settings__column{
+    margin-left: auto;
+    opacity: 0.5;
+}
+
+.setting__title{
+    margin-left: 15px;
+}
+
+.settings__section{
+    margin-top: 20px;
+}
